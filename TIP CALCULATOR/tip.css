@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  font-family: "Roboto",sans-serif;
+}
+
+.overall {
+  margin: 100px;
+  width: 700px;
+  height: 600px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  border-radius: 30px;
+  box-shadow: 0px 3px 40px 0px rgba(0, 0, 0, 0.7);
+}
+
+input {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  height: 3rem;
+  width: 25rem;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: rgba(240, 248, 255, 0.677);
+}
+
+.bt {
+  margin-top: -10px;
+  padding-bottom: 10px;
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.dt {
+  gap: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.tt {
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.split-container {
+  font-weight: 900;
+}
+
+.split-btn {
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  justify-content: center;
+  width: 30px;
+  padding: 5px;
+  height: 30px;
+  border-radius: 100%;
+  padding-bottom: 30px;
+  margin-right: 1px;
+  border: none;
+}
+
+.btn.txt {
+  display: flex;
+  gap: 100px;
+}
+
+.splitAmount {
+  padding: 7px;
+}
+
+.people {
+  padding-bottom: 12px;
+  margin-left: 10px;
+}
+.total {
+  margin-left: 30px;
+  font-size: 2rem;
+}
+
+#bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 200px;
+  font-weight: 900;
+}
+
+span {
+  font-weight: 900;
+}
+
+.toggles {
+  display: flex;
+  align-items: center;
+}

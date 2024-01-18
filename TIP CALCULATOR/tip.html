@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tip.css" />
+    <title>Tip Calculator</title>
+  </head>
+
+  <body>
+    <div class="overall">
+      <div class="container" id="top-container">
+        <div>
+          <div class="bt">
+            <label for="bill_total">Total Bill</label>
+          </div>
+          <div class="dt">
+            <span>$</span>
+            <input onkeyup="calculateBill()" id="billTotaInput" type="text" placeholder="0.00" />
+          </div>
+        </div>
+
+        <div>
+          <div class="tt">
+            <label for="tip_total"></label>Tip(%)</label>
+          </div>
+          <div class="dt">
+            <span>%</span>
+            <input onkeyup="calculateBill()" id="tipInput" type="text" placeholder="10" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="bottom-container">
+        <div class="split-container">
+          <div class="people">People</div>
+          <div class="toggles">
+            <span class="btn-container">
+              <button class="split-btn" onclick="increasePeople()">
+                <span class="btn-txt">+</span>
+              </button>
+            </span>
+            <span class="splitAmount" id="numberOfPeople">1</span>
+            <span class="btn-Container">
+              <button class="split-btn" onclick="decreasePeople()">
+                <span class="btn-txt">-</span>
+              </button>
+            </span>
+          </div>
+        </div>
+
+        <div class="TPP-Container">
+          <div class="people">Total per Person</div>
+          <div class="total" id="perPersonTotal">$0.00 <div>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="tip.js"></script>
+  </body>
+</html>
