@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#red {
+  border-radius: 15px;
+}
+
+#yellow {
+  border-radius: 15px;
+}
+#green {
+  border-radius: 15px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.BlkBtn{
+  margin-left: 27rem;
+  margin-top: 70px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+button {
+  cursor: pointer;
+}
