@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to left, whitesmoke, rgba(206, 144, 72, 0.782), rgba(214, 154, 44, 0.405));
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;  
+}
+
+.outer-container{
+  border: none;
+  display: block;
+  height: 45rem;
+  width: 25rem;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.result{
+  border: none;
+  border-radius: 30px 30px 0px 0px;
+  width: 100%;
+  height: 11rem;
+  color: white;
+  background-color: black;
+  font-size: 70px;
+  padding: 10px 10px;
+  box-sizing: border-box
+}
+
+
+.buttons{
+  border: none;
+  border-radius: 100%;
+  width: 80px;
+  cursor: pointer;
+  height: 5rem;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+}
+
+.buttons:hover{
+  background-color: rgba(128, 128, 128, 0.816);
+}
+
+.zero-button{
+  border: none;
+  border-radius: 40px;
+  width: 11rem;
+  height: 5rem;
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+}
+
+.zero-button:hover{
+  background-color: rgba(128, 128, 128, 0.816);
+}
+
+.golden-yellow{
+  border: none;
+  border-radius: 100%;
+  width: 80px;
+  cursor: pointer;
+  height: 5rem;
+  color: white;
+  background-color: goldenrod;
+  font-size: 40px;
+}
+
+.golden-yellow:hover{
+  background-color: blanchedalmond;
+}
+
+.clear, .del, .perc{
+  font-size: 30px;
+  font-weight: 500;
+  border: none;
+  border-radius: 100%;
+  width: 80px;
+  cursor: pointer;
+  height: 5rem;
+  background-color: rgb(195, 229, 206);
+}
+
+.clear:hover, .del:hover, .perc:hover{
+  background-color: rgba(172, 214, 186, 0.777);
+}
+
+.container1, .container2, .container3, .container4{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container5{
+  display: flex;
+  justify-content: space-around;
+}
+
+#foot{
+  width: 11rem;
+  height: .5rem;
+  border-radius: 5px;
+  margin: 40px 6.5rem;
+}
