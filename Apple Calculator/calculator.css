@@ -31,10 +31,12 @@ body{
   width: 100%;
   height: 11rem;
   color: white;
+  text-align-last: right;
   background-color: black;
   font-size: 70px;
   padding: 10px 10px;
   box-sizing: border-box
+  
 }
 
 
@@ -55,13 +57,16 @@ body{
 
 .zero-button{
   border: none;
-  border-radius: 40px;
+  border-radius: 50px;
   width: 11rem;
   height: 5rem;
   cursor: pointer;
   background-color: grey;
   color: white;
   font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 6.5rem;
 }
 
 .zero-button:hover{
@@ -76,14 +81,14 @@ body{
   height: 5rem;
   color: white;
   background-color: goldenrod;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .golden-yellow:hover{
   background-color: blanchedalmond;
 }
 
-.clear, .del, .perc{
+.clear, .del, .sqrt{
   font-size: 30px;
   font-weight: 500;
   border: none;
@@ -94,8 +99,13 @@ body{
   background-color: rgb(195, 229, 206);
 }
 
-.clear:hover, .del:hover, .perc:hover{
+.clear:hover, .del:hover, .sqrt:hover{
   background-color: rgba(172, 214, 186, 0.777);
+}
+
+#squareroot{
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 
 .container1, .container2, .container3, .container4{
@@ -113,4 +123,5 @@ body{
   height: .5rem;
   border-radius: 5px;
   margin: 40px 6.5rem;
+  cursor: pointer;
 }
