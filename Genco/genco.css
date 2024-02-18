@@ -20,8 +20,24 @@
   display: flex;
   justify-content: space-between;
   background-color:wheat;
-  color:darkmagenta;
+  color: darkmagenta;
 }
+
+.fa-twitter, .fa-facebook, .fa-whatsapp{
+  color: black;
+  margin-top: 0.8rem;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.nav-icons{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 14rem;
+}
+
 
 .btn, .reset-btn{
   font-family: 'protest riot';
@@ -67,6 +83,7 @@
 .color{
   color:aqua;
   line-height: 5px;
+  transition: 1s 0.5 ease-in-out;
 }
 
 .inner-div{
