@@ -12,9 +12,12 @@ function getTime() {
   let ampm = "PM";
 
   if (hr > 12) {
-    hr = hr - 12;
-  } else {
+    hr -= 12;
     ampm = "AM";
+  }
+
+  if (hr === 0) {
+    hr = 12;
   }
 
   hr = hr < 10 ? "0" + hr : hr;
