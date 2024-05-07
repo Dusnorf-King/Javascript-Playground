@@ -30,5 +30,5 @@ function del() {
 
 
 getRoot.addEventListener("click", function () {
-  displayResult.value = Math.sqrt(displayResult.value);
+  displayResult.value = Number(Math.sqrt(displayResult.value).toFixed(5));
 });
